@@ -88,7 +88,7 @@ aside {
 }
 
 #lower_area {
-    display: Solid;
+    display: block;
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ footer {
 }
 
 .button {
-    display: center;
+    display: block;
     width: 100px;
     height: 20px;
     background-color: #d5d8d6;
@@ -128,7 +128,7 @@ footer {
 }
 
 table {
-    border: 4px center #252626;
+    border: 4px color #252626;
 }
 
 td, tr {
