@@ -1,139 +1,164 @@
 body {
-    background-color: #414242fb;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-}
-
-h1, h2, h3 {
-    color: #252626;
-    text-align: center;
-}
-
-#container {
-    background-color: #949494;
-    width: 75%;
-    margin: 20px auto;
-    border: 4px solid #838383fb;
-}
-
-nav {
-    background-color: #e2e2e2;
-    padding: 2px 0;
-    text-align: center;
-}
-
-nav ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-nav li {
-    display:ruby-base;
-}
-
-nav li a {
-    display:inline-block;
-    background-color: #da9535;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #f7f7f7;
-    text-decoration: none;
-    border: 2px solid #474746;
-    border-radius: 20px;
-    margin: 0 10px;
-}
-
-nav li a:hover {
-    background-color: #2c2c2c;
-    color: #cc9342;
-    border: 2px solid #666563;
-}
-
-main {
-    display: flex;
-}
-
-section, aside {
-    border: 2px solid #ffffff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-section {
-    width: 50%;
-}
-
-aside {
-    width: 50%;
-}
-
-.single_page {
-    width: 100%;
-}
-
-#main_img_resize {
-    width: 50%;
-}
-
-#second_img_resize {
-    width: 50%
-}
-
-#lower_area {
-    display: block;
-    text-align: center;
-}
-
-.col {
-    border: 2px solid #f4f7f5;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px; 
-}
-
-footer {
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 40px 0;
-    color:  #000000;
-    font-weight: bold;
-}
-
-.button {
-    display: block;
-    width: 100px;
-    height: 20px;
-    background-color: #d5d8d6;
-    color: #666666;
-    text-decoration: none;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #050505;
-    border-radius: 10px;
-}
-
-.button:hover {
-    background-color: #f1ebe1;
-    color: #575757;
-    border-color: #474747;
-}
-
-table {
-    border: 4px solid #252626;
-}
-
-td, tr {
-    border: 2px solid #3E403F;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
+    background-color: #1f1f1f;  
+  }
+  
+  img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+  }
+  
+  h1,h2,h3  {
+      color: #c08009;
+      text-align: center;
+  }
+  
+  
+  #container {
+      background-color: #4e4e4e;
+  }
+  
+  nav {
+      background-color: #d69213;
+      padding: 2px 0;
+      text-align: center;
+  }
+  
+  nav ul {
+      padding: 0;
+      list-style-type: none;
+  }
+  
+  nav li {
+      display: block;
+      border-bottom: 2px solid #161615;
+  }
+  
+  nav li a {
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      background-color: #302d2d;
+      color: #0a0a09;
+      text-decoration: none;
+      font-size: 1.3em;
+      padding: 5px 0;
+  }
+  
+  nav li a:hover {
+      background-color: #d1911a;
+      color: #c9b60e;
+      border-color: #ce8807;
+  }
+  
+  main {
+      padding: 20px;
+  
+  }
+  
+  .col {
+      padding: 20px;
+      border-top: 2px solid #d49307;
+  }
+  
+  footer {
+      background-color: #c7860f;
+      color: #F2CE1B;
+      font-weight: bold;
+      text-align: center;
+      padding: 40px 0;
+  }
+  
+  .button {
+      display: block;
+      width: 100PX;
+      height: 20px;
+      line-height: 10px;
+      background-color: #bdbcba;
+      color: #0f0f0f;
+      text-decoration: #c5c8ca;
+      margin-top: 10px;
+      padding: 10px;
+      text-align: center;
+      border: 2px solid #c4821f;
+      border-radius: 10px;
+  
+  }
+  
+  .button:hover {
+      background-color: #7a7d80;
+      border-color: #272923;
+  }
+  
+  table {
+      border: #daa514;
+  }
+  
+  tr,td {
+      border: 4px solid #bb7813;
+  }
+  
+  @media (min-width: 768px){
+      nav li {
+          display: inline-block;
+          border: 0;
+      }
+  
+      nav li a {
+          width: 200px;
+          margin: 0 5px;
+          border-radius: 10px;
+          border: 2px solid #F2CE1B;
+      }
+  
+      main {
+          display: flex;
+      }
+  
+      section, aside {
+          padding: 10px;
+          margin: 10px;
+          border: 2px solid #ca9218;
+          border-radius: 10px;
+      }
+  
+      section {
+          width: 70%;
+      }
+  
+      aside {
+          width: 30%;
+      }
+  
+      .col img {
+          width: 50%;
+      }
+     
+  }
+  
+  @media (min-width: 1024px) {
+      #container {
+          width: 65%;
+          margin: 20px auto;
+      }
+      nav li a {
+          background-color: #cecac3;
+          border: 0;
+      }
+  
+      #lower_ area{
+          display: flex;
+  
+      }
+  
+      .col {
+          border: 2px solid #352804;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 10px;
+      }
+  
+      .single_page {
+          width: 100%;
+      }
+  }
